@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("http://www.valuesperspectivesbook.com/wp-content/uploads/2014/08/Color-Fluorescence-Girl.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.head{
+    width:350px;
+    height: 370px;
+    background-color:#000;
+    transform: translate(20%,70%);
+    color:#fff;
+    margin:0;
+    padding: 25px 20px;
+    background:transparent;
+}
+.head h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.head p{
+    margin:0;
+    padding: 0;
+    font-size: 15px;
+}
+.head input[type="text"], input[type="password"]{
+    width:100%;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    border:none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    color:#fff;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+}
+.head input[type="submit"]{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color:#240A2F;
+    border-radius: 20px;
+    color:#fff;
+    width:100%;
+    text-align: center;
+}
+.head input[type="submit"]:hover{
+    cursor: pointer;
+    color:#ddd;
+    background-color: #D7320F;
+  
+}
+
+.head a{
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.head a:hover{
+    cursor: pointer;
+    color:#ddd;
+    background-color: #000;
+    margin-top: 20px;
+}
+
